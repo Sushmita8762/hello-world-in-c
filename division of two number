@@ -1,0 +1,23 @@
+# include<stdio.h>
+   int main()
+ {
+   int num1, num2, divi;
+   printf("enter the first number");
+   scanf("%d",& num1);
+   printf("enter the second number ");
+   scanf("%d",&num2);
+   divi= num1/num2;
+   printf("%d/%d=%d",num1,num2,divi);
+   return 0;
+ }
+ //without using scanf
+ #include<stdio.h>
+   int main()
+ {
+   int num1,num2,divi;
+   num1=20;
+     num2=5;
+   divi=num1/num2;
+   printf("%d/%d=%d",num1,num2,divi);
+   return 0;
+ }
